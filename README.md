@@ -20,10 +20,12 @@
   <li>chmod 777 .env</li>
   <li>.envファイルの環境変数を変更（docker-compose.yml参照）</li>
   <li>.envに下記アクセスキーを入力する</li>
-  <p>STRIPE_PUBLIC_KEY="pk_test_51QvfMfIOgfDWvo2XL1n04iTIt8vSg2sIV6MiKlsOURbY6JE6IVsPiBTdNUXhblaknK0gXGo86dJVHBDFgfORhZF100M5fAEaCA"</p>
-  <p>STRIPE_SECRET_KEY="sk_test_51QvfMfIOgfDWvo2XsqQ5fAPh9VIfY6FCj5HEbUPsta1ZiGAGMHp0elBYlFGEDOocgvQnSbEKbmLQxGMYS9OdDC1000kiKf7J44"</p>
+  <p>STRIPE_PUBLIC_KEY="pk_test_51QvfMfIOgfDWvo2XL1n04iTIt8vSg2sIV6MiKlsOURbY6JE6IVsPiBTdNUXhblaknK0gXGo86dJVHBDFgfORhZF100M5fAEaCA"
+  <br/>STRIPE_SECRET_KEY="sk_test_51QvfMfIOgfDWvo2XsqQ5fAPh9VIfY6FCj5HEbUPsta1ZiGAGMHp0elBYlFGEDOocgvQnSbEKbmLQxGMYS9OdDC1000kiKf7J44"</p>
+  <p>※アクセスキーはお持ちのものがあれば、そちらをご利用ください</p>
   <li>src/public/js/item/stripe.jsに下記アクセスキーを入力する</li>
-  <p>STRIPE_PUBLIC_KEY="pk_test_51QvfMfIOgfDWvo2XL1n04iTIt8vSg2sIV6MiKlsOURbY6JE6IVsPiBTdNUXhblaknK0gXGo86dJVHBDFgfORhZF100M5fAEaCA"</p>
+  <p>const stripe_public_key = "pk_test_51QvfMfIOgfDWvo2XL1n04iTIt8vSg2sIV6MiKlsOURbY6JE6IVsPiBTdNUXhblaknK0gXGo86dJVHBDFgfORhZF100M5fAEaCA";</p>
+  <p>※アクセスキーはお持ちのものがあれば、そちらをご利用ください</p>
   <li>composer update</li>
   <li>php artisan key:generate</li>
   <li>php artisan migrate --seed</li>
