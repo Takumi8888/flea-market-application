@@ -1,0 +1,213 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.profile__image {
+    margin-left: 20%;
+    border-radius: 50%;
+}
+
+.profile__name {
+    width: 34.5%;
+    margin-left: 6%;
+    font-weight: 700;
+}
+
+.profile__button {
+    background-color: #FFFFFF;
+    color: #FF5555;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.tag-section {
+    display: flex;
+    justify-content: left;
+}
+
+.sell-form,
+.buy-form {
+    width: 23.5%;
+}
+
+.sell-form__button--on,
+.sell-form__button--off,
+.buy-form__button--on,
+.buy-form__button--off {
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: 700;
+}
+
+.sell-form__button--on,
+.sell-form__button--off {
+    margin-left: 40%;
+}
+
+.sell-form__button--on,
+.buy-form__button--on {
+    color: #FF5555;
+}
+
+
+.sell-form__button--off,
+.buy-form__button--off {
+    color: #5F5F5F;
+}
+
+.item-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4.6%;
+    margin: 0;
+    padding: 0;
+}
+
+.item-group .hidden {
+    display: none
+}
+
+.item-card {
+    display: block;
+}
+
+.item-form,
+.buy-item {
+    height: 100%;
+}
+
+.item-form__button {
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.item-form__button--image,
+.buy-item__image {
+    width: 100%;
+    height: 88%;
+    object-fit: contain
+}
+
+.item-form__button--name,
+.buy-item__name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .profile-section {
+        margin: 80px auto;
+    }
+
+    .profile__image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile__name {
+        font-size: 3.6rem;
+    }
+
+    .profile__button {
+        padding: 10px 30px;
+        border: 3px solid #FF5555;
+        border-radius: 5px;
+        font-size: 2.6rem;
+    }
+
+    .tag-section {
+        margin-top: 50px;
+        border-bottom: 2px solid #5F5F5F;
+    }
+
+    .sell-form__button--on,
+    .sell-form__button--off,
+    .buy-form__button--on,
+    .buy-form__button--off {
+        font-size: 2.4rem;
+    }
+
+    .item-section {
+        margin-top: 60px;
+    }
+
+    .item-card {
+        margin-bottom: 75px;
+    }
+
+    .item-form__button--name,
+    .buy-item__name {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .profile-section {
+        margin: 44px auto;
+    }
+
+    .profile__image {
+        width: 82.5px;
+        height: 82.5px;
+    }
+
+    .profile__name {
+        font-size: 1.98rem;
+    }
+
+    .profile__button {
+        padding: 5.5px 16.5px;
+        border: 1.65px solid #FF5555;
+        border-radius: 2.75px;
+        font-size: 1.43rem;
+    }
+
+    .tag-section {
+        margin-top: 27.5px;
+        border-bottom: 1.1px solid #5F5F5F;
+    }
+
+    .sell-form__button--on,
+    .sell-form__button--off,
+    .buy-form__button--on,
+    .buy-form__button--off {
+        font-size: 1.32rem;
+    }
+
+    .item-section {
+        margin-top: 33px;
+    }
+
+    .item-card {
+        margin-bottom: 41.25px;
+    }
+
+    .item-form__button--name,
+    .buy-item__name {
+        font-size: 1.375rem;
+    }
+}

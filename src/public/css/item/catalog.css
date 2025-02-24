@@ -1,0 +1,142 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tag-section {
+    display: flex;
+    justify-content: left;
+}
+
+.recommend-group,
+.my-list-form {
+    width: 25.2%;
+}
+
+.recommend-group__button--on,
+.recommend-group__button--off {
+    margin-left: 50%;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.my-list-form__button--on,
+.my-list-form__button--off {
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: 700;
+}
+
+.recommend-group__button--on,
+.my-list-form__button--on {
+    color: #FF5555;
+}
+
+.recommend-group__button--off,
+.my-list-form__button--off {
+    color: #5F5F5F;
+}
+
+.item-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4.6%;
+    margin: 0;
+    padding: 0;
+}
+
+.item-group .hidden {
+    display: none
+}
+
+.item-card {
+    display: block;
+}
+
+.item-form {
+    height: 100%;
+}
+
+.item-form__button {
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.item-form__button--image {
+    width: 100%;
+    height: 88%;
+    object-fit: contain
+}
+
+.item-form__button--name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .tag-section {
+        margin-top: 50px;
+        border-bottom: 2px solid #5F5F5F;
+    }
+
+    .recommend-group__button--on,
+    .recommend-group__button--off,
+    .my-list-form__button--on,
+    .my-list-form__button--off {
+        font-size: 2.4rem;
+    }
+
+    .item-section {
+        margin-top: 60px;
+    }
+
+    .item-card {
+        margin-bottom: 75px;
+    }
+
+    .item-form__button--name {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .tag-section {
+        margin-top: 27.5px;
+        border-bottom: 1.1px solid #5F5F5F;
+    }
+
+    .recommend-group__button--on,
+    .recommend-group__button--off,
+    .my-list-form__button--on,
+    .my-list-form__button--off {
+        font-size: 1.32rem;
+    }
+
+    .item-section {
+        margin-top: 33px;
+    }
+
+    .item-card {
+        margin-bottom: 41.25px;
+    }
+
+    .item-form__button--name {
+        font-size: 1.375rem;
+    }
+}

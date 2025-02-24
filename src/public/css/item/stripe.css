@@ -1,0 +1,109 @@
+.container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.title__text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#card-form {
+    width: 100%;
+}
+
+.text-danger {
+    color: #FF5555;
+}
+
+#card-button {
+    width: 100%;
+    border: none;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        padding: 70px 0;
+    }
+
+    .title__text {
+        margin-bottom: 50px;
+        font-size: 3.6rem;
+    }
+
+    #card-form {
+        margin-bottom: 80px;
+    }
+
+    .card-form__group {
+        margin-top: 50px;
+    }
+
+    .card-form__group label {
+        font-size: 2.4rem;
+    }
+
+    .card-form__control {
+        padding: 10px 15px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        font-size: 2.4rem;
+    }
+
+    .text-danger {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+
+    #card-button {
+        margin-top: 50px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .container {
+        padding: 38.5px 0;
+    }
+
+    .title__text {
+        margin-bottom: 27.5px;
+        font-size: 1.98rem;
+    }
+
+    #card-form {
+        margin-bottom: 44px;
+    }
+
+    .card-form__group {
+        margin-top: 27.5px;
+    }
+
+    .card-form__group label {
+        font-size: 1.32rem;
+    }
+
+    .card-form__control {
+        padding: 5.5px 8.25px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        font-size: 1.32rem;
+    }
+
+    .text-danger {
+        margin-top: 5.5px;
+        font-size: 1.1rem;
+    }
+
+    #card-button {
+        margin-top: 27.5px;
+        padding: 5.5px 16.5px;
+        border-radius: 2.75px;
+        font-size: 1.375rem;
+    }
+}

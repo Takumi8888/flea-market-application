@@ -1,0 +1,147 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title__text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.login-form-group label {
+    width: 100%;
+    font-weight: 700;
+}
+
+.login-form-group input {
+    width: 100%;
+    border: 1px border #5F5F5F;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login-form__error {
+    color: #FF5555;
+}
+
+.login-form__button--login,
+.login-form__button--register {
+    width: 100%;
+    border: none;
+}
+
+.login-form__button--login {
+    border-radius: 5px;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.login-form__button--register {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: #0073CC;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        padding: 120px 0;
+    }
+
+    .title__text {
+        margin-bottom: 50px;
+        font-size: 3.6rem;
+    }
+
+    .login-form-group {
+        margin-bottom: 40px;
+    }
+
+    .login-form-group label {
+        font-size: 2.4rem;
+    }
+
+    .login-form-group input {
+        margin-top: 5px;
+        padding: 15px;
+        font-size: 2.4rem;
+    }
+
+    .login-form__error {
+        margin-top: 5px;
+        font-size: 2rem;
+    }
+
+    .login-form__button--login,
+    .login-form__button--register {
+        padding: 15px;
+    }
+
+    .login-form__button--login {
+        margin-top: 40px;
+        font-size: 2.5rem;
+    }
+
+    .login-form__button--register {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .container {
+        padding: 66px 0;
+    }
+
+    .title__text {
+        margin-bottom: 27.5px;
+        font-size: 1.98rem;
+    }
+
+    .login-form-group {
+        margin-bottom: 22px;
+    }
+
+    .login-form-group label {
+        font-size: 1.32rem;
+    }
+
+    .login-form-group input {
+        margin-top: 2.75px;
+        padding: 8.25px;
+        font-size: 1.32rem;
+    }
+
+    .login-form__error {
+        margin-top: 2.75px;
+        font-size: 1.1rem;
+    }
+
+    .login-form__button--login,
+    .login-form__button--register {
+        padding: 8.25px;
+    }
+
+    .login-form__button--login {
+        margin-top: 22px;
+        font-size: 1.375rem;
+    }
+
+    .login-form__button--register {
+        margin-top: 11px;
+        font-size: 1.1rem;
+    }
+}

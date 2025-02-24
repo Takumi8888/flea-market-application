@@ -1,0 +1,147 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title__text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.register-form-group label {
+    width: 100%;
+    font-weight: 700;
+}
+
+.register-form-group input {
+    width: 100%;
+    border: 1px border #5F5F5F;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.register-form__error {
+    color: #FF5555;
+}
+
+.register-form__button--register,
+.register-form__button--login {
+    width: 100%;
+    border: none;
+}
+
+.register-form__button--register {
+    border-radius: 5px;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.register-form__button--login {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: #0073CC;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        padding: 100px 0;
+    }
+
+    .title__text {
+        margin-bottom: 55px;
+        font-size: 3.6rem;
+    }
+
+    .register-form-group {
+        margin-bottom: 40px;
+    }
+
+    .register-form-group label {
+        font-size: 2.4rem;
+    }
+
+    .register-form-group input {
+        margin-top: 5px;
+        padding: 15px;
+        font-size: 2.4rem;
+    }
+
+    .register-form__error {
+        margin-top: 5px;
+        font-size: 2rem;
+    }
+
+    .register-form__button--register,
+    .register-form__button--login {
+        padding: 15px;
+    }
+
+    .register-form__button--register {
+        margin-top: 75px;
+        font-size: 2.5rem;
+    }
+
+    .register-form__button--login {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .container {
+        padding: 55px 0;
+    }
+
+    .title__text {
+        margin-bottom: 30.25px;
+        font-size: 1.98rem;
+    }
+
+    .register-form-group {
+        margin-bottom: 22px;
+    }
+
+    .register-form-group label {
+        font-size: 1.32rem;
+    }
+
+    .register-form-group input {
+        margin-top: 2.75px;
+        padding: 8.25px;
+        font-size: 1.32rem;
+    }
+
+    .register-form__error {
+        margin-top: 2.75px;
+        font-size: 1.1rem;
+    }
+
+    .register-form__button--register,
+    .register-form__button--login {
+        padding: 8.25px;
+    }
+
+    .register-form__button--register {
+        margin-top: 41.25px;
+        font-size: 1.375rem;
+    }
+
+    .register-form__button--login {
+        margin-top: 11px;
+        font-size: 1.1rem;
+    }
+}

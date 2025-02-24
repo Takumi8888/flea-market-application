@@ -1,0 +1,402 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.purchase-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.purchase-form-section-left {
+    width: 53%;
+    margin-right: 7%;
+}
+
+.purchase-form-group-item {
+    display: flex;
+    justify-content: left;
+}
+
+.purchase-form__image {
+    width: 22%;
+    margin-right: 7%;
+}
+
+.purchase-form__input--name,
+.purchase-form__input--price {
+    pointer-events: none;
+    outline: none;
+    border: none;
+}
+
+.purchase-form__input--name {
+    font-weight: 700;
+}
+
+.purchase-form__text {
+    margin-left: 4%;
+    font-weight: 700;
+}
+
+.purchase-form__select {
+    margin-left: 12%;
+    outline: none;
+    width: 33%;
+}
+
+.purchase-form__select select{
+    font-weight: 700;
+    color: 5F5F5F;
+}
+
+.purchase-form__select option {
+    background-color: #636769;
+    color: #EAEAEA;
+}
+
+.purchase-form__select option:checked {
+    background-color: #5599EB;
+    color: #EAEAEA;
+}
+
+.purchase-form__error {
+    margin-left: 8.5%;
+    color: #FF5555;
+}
+
+.purchase-form-address-change {
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase-form__text {
+    margin-left: 4%;
+    font-weight: 700;
+}
+
+.purchase-form__button--address {
+    margin-right: 4%;
+    color: #0073CC;
+    text-decoration: none;
+}
+
+.purchase-form-shipping-address {
+    margin-left: 12%;
+    font-weight: 600;
+}
+
+.purchase-form__postcode {
+    pointer-events: none;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.purchase-form__address-build {
+    display: flex;
+    justify-content: left;
+}
+
+.purchase-form__address,
+.purchase-form__build {
+    font-weight: 600;
+}
+
+.purchase-form-section-right {
+    width: 29%;
+}
+
+.purchase-form-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+.purchase-form-table__header {
+    width: 45%;
+    font-weight: 400;
+}
+
+.purchase-form-table__input {
+    display: flex;
+    justify-content: left;
+}
+
+.purchase-form-table__input--yen {
+    font-weight: 400;
+}
+
+.purchase-form-table__input--price {
+    width: 55%;
+    font-weight: 400;
+    pointer-events: none;
+    outline: none;
+    border: none;
+}
+
+.purchase-form-table__method {
+    width: 55%;
+    font-weight: 400;
+}
+
+.purchase-form__button--purchase {
+    width: 100%;
+    border: none;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .purchase-form {
+        margin-top: 95px;
+        margin-bottom: 175px;
+    }
+
+    .purchase-form-group-item {
+        border-bottom: 1px solid #000000;
+    }
+
+    .purchase-form__image {
+        margin-bottom: 50px;
+    }
+
+    .purchase-form__input--name {
+        margin-bottom: 25px;
+        font-size: 3rem;
+    }
+
+    .purchase-form__input--yen {
+        font-size: 2.7rem;
+    }
+
+    .purchase-form__input--price {
+        font-size: 3.2rem;
+    }
+
+    .purchase-form-group {
+        border-bottom: 1px solid #000000;
+    }
+
+    .purchase-form__select {
+        margin-top: 40px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    .purchase-form__select select {
+        font-size: 1.6rem;
+    }
+
+    .purchase-form__error {
+        margin-top: 5px;
+        margin-bottom: 60px;
+        padding-left: 30px;
+        font-size: 1.5rem;
+    }
+
+    .purchase-form__text {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    select {
+        font-size: 1.6rem;
+    }
+
+    .purchase-form__button--address {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    .purchase-form-shipping-address {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        font-size: 2rem;
+    }
+
+    .purchase-form__postcode {
+        font-size: 2rem;
+    }
+
+    .purchase-form__address-build {
+        margin-top: 5px;
+    }
+
+    .purchase-form__address,
+    .purchase-form__build {
+        font-size: 2rem;
+    }
+
+    .purchase-form__build {
+        margin-left: 5px;
+    }
+
+    .purchase-form-table {
+        border: 1px solid #000000;
+    }
+
+    .purchase-form-table__header--price {
+        padding: 38px 0;
+        border-bottom: 1px solid #000000;
+        font-size: 2rem;
+    }
+
+    .purchase-form-table__price {
+        border-bottom: 1px solid #000000;
+    }
+
+    .purchase-form-table__input--yen {
+        font-size: 2.4rem;
+    }
+
+    .purchase-form-table__input--price {
+        font-size: 2.8rem;
+    }
+
+    .purchase-form-table__header--purchase {
+        padding: 38px 0;
+        font-size: 2rem;
+    }
+
+    .purchase-form-table__method {
+        font-size: 2.4rem;
+    }
+
+    .purchase-form__button--purchase {
+        padding: 10px 30px;
+        margin-top: 65px;
+        border-radius: 5px;
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .purchase-form {
+        margin-top: 52.25px;
+        margin-bottom: 96.25px;
+    }
+
+    .purchase-form-group-item {
+        border-bottom: 0.55px solid #000000;
+    }
+
+    .purchase-form__image {
+        margin-bottom: 27.5px;
+    }
+
+    .purchase-form__input--name {
+        margin-bottom: 13.75px;
+        font-size: 1.65rem;
+    }
+
+    .purchase-form__input--yen {
+        font-size: 1.485rem;
+    }
+
+    .purchase-form__input--price {
+        font-size: 1.76rem;
+    }
+
+    .purchase-form-group {
+        border-bottom: 0.55px solid #000000;
+    }
+
+    .purchase-form__select {
+        margin-top: 22px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        height: 16.5px;
+    }
+
+    .purchase-form__select select {
+        font-size: 0.88rem;
+    }
+
+    .purchase-form__error {
+        margin-top: 5px;
+        margin-bottom: 33px;
+        padding-left: 16.5px;
+        font-size: 0.825rem;
+    }
+
+    .purchase-form__text {
+        margin-top: 16.5px;
+        font-size: 1.1rem;
+    }
+
+    select {
+        font-size: 0.88rem;
+    }
+
+    .purchase-form__button--address {
+        margin-top: 16.5px;
+        font-size: 1.1rem;
+    }
+
+    .purchase-form-shipping-address {
+        margin-top: 22px;
+        margin-bottom: 33px;
+        font-size: 1.1rem;
+    }
+
+    .purchase-form__postcode {
+        font-size: 1.1rem;
+    }
+
+    .purchase-form__address-build {
+        margin-top: 2.75px;
+    }
+
+    .purchase-form__address,
+    .purchase-form__build {
+        font-size: 1.1rem;
+    }
+
+    .purchase-form__build {
+        margin-left: 2.75px;
+    }
+
+    .purchase-form-table {
+        border: 0.55px solid #000000;
+    }
+
+    .purchase-form-table__header--price {
+        padding: 22px 0;
+        border-bottom: 0.55px solid #000000;
+        font-size: 1.1rem;
+    }
+
+    .purchase-form-table__price {
+        border-bottom: 0.55px solid #000000;
+    }
+
+    .purchase-form-table__input--yen {
+        font-size: 1.32rem;
+    }
+
+    .purchase-form-table__input--price {
+        font-size: 1.54rem;
+    }
+
+    .purchase-form-table__header--purchase {
+        padding: 22px 0;
+        font-size: 1.1rem;
+    }
+
+    .purchase-form-table__method {
+        font-size: 1.32rem;
+    }
+
+    .purchase-form__button--purchase {
+        padding: 5.5px 16.5px;
+        margin-top: 35.75px;
+        border-radius: 2.75px;
+        font-size: 1.43rem;
+    }
+}

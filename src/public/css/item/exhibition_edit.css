@@ -1,0 +1,404 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title__text {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.exhibition-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.exhibition-form__file {
+    position: relative;
+    width: 100%;
+}
+
+.exhibition-form__image {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#file {
+    display: none;
+}
+
+#image-button {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background-color: #FFFFFF;
+    color: #FF5555;
+    font-weight: 700;
+}
+
+.section-title__text {
+    margin: 0 auto;
+    color: #5F5F5F;
+    font-weight: 700;
+}
+
+.exhibition-form-group label {
+    font-weight: 700;
+}
+
+.exhibition-form__checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.category-button {
+    background-color: #FFFFFF;
+    color: #FF5555;
+}
+
+.category-button:focus {
+    outline: none;
+}
+
+.exhibition-form__triangle {
+    position: relative;
+}
+
+.exhibition-form__triangle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: #5F5F5F transparent transparent;
+}
+
+.exhibition-form__select {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.exhibition-form__select option {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: #636769;
+    color: #EAEAEA;
+}
+
+.exhibition-form__select option:checked {
+    background-color: #5599EB;
+    color: #EAEAEA;
+}
+
+.exhibition-form__input--name input,
+.exhibition-form__input--brand input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.exhibition-form__textarea textarea {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+}
+
+.exhibition-form__input--price {
+    position: relative;
+}
+
+.exhibition-form__input--symbol {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.exhibition-form__input--price input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#price::-webkit-inner-spin-button,
+#price::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance: textfield !important;
+}
+
+.exhibition-form__error,
+.exhibition-form__error--image,
+.exhibition-form__error--category {
+    color: #FF5555;
+}
+
+.exhibition-form__button--exhibition {
+    width: 100%;
+    border: none;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .title__text {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 3.6rem;
+    }
+
+    .exhibition-form__file {
+        height: 300px;
+        border: 1px dashed #5F5F5F;
+        border-radius: 5px;
+    }
+
+    .exhibition-form__image {
+        width: 40%;
+    }
+
+        .exhibition-form__error--image {
+            margin-bottom: 80px;
+        }
+
+    #image-button {
+        padding: 10px 30px;
+        border: 3px Solid #FF5555;
+        border-radius: 5px;
+        font-size: 2rem;
+    }
+
+    .exhibition-form__section-title {
+        border-bottom: 1px solid #5F5F5F;
+    }
+
+    .section-title__text {
+        margin-top: 60px;
+        border-bottom: 1px solid #5F5F5F;
+        font-size: 3rem;
+    }
+
+    .exhibition-form-group {
+        margin-top: 35px;
+    }
+
+    .exhibition-form-group label {
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__checkbox {
+        margin-left: 10px;
+    }
+
+    .category-button {
+        margin-top: 35px;
+        margin-right: 15px;
+        padding: 3px 13px;
+        border: 2px solid #FF5555;
+        border-top-left-radius: 15px 15px;
+        border-top-right-radius: 15px 15px;
+        border-bottom-left-radius: 15px 15px;
+        border-bottom-right-radius: 15px 15px;
+        font-size: 1.5rem;
+    }
+
+    .exhibition-form__error--category {
+        margin-bottom: 60px;
+    }
+
+    .exhibition-form__triangle::after {
+        border-width: 15px 8px 0px 8px;
+    }
+
+    .exhibition-form__select {
+        padding: 10px 15px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__input--name input,
+    .exhibition-form__input--brand input {
+        padding: 10px 15px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__textarea textarea {
+        height: 125px;
+        padding: 10px 15px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__input--price input {
+        padding: 10px 30px;
+        border: 1px solid #5F5F5F;
+        border-radius: 5px;
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__input--symbol {
+        top: 26px;
+        left: 18px;
+        font-size: 2.4rem;
+    }
+
+    .exhibition-form__error,
+    .exhibition-form__error--image,
+    .exhibition-form__error--category {
+        margin-top: 5px;
+        font-size: 2rem;
+    }
+
+    .exhibition-form__button--exhibition {
+        margin-top: 120px;
+        margin-bottom: 270px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .title__text {
+        margin-top: 27.5px;
+        margin-bottom: 22px;
+        font-size: 1.98rem;
+    }
+
+    .exhibition-form__file {
+        height: 82.5px;
+        margin-bottom: 44px;
+        border: 0.55px dashed #5F5F5F;
+        border-radius: 2.75px;
+    }
+
+    .exhibition-form__image {
+        width: 20%;
+    }
+
+    .exhibition-form__error--image {
+        margin-bottom: 44px;
+    }
+
+    #image-button {
+        padding: 5.5px 16.5px;
+        border: 1.65px Solid #FF5555;
+        border-radius: 2.75px;
+        font-size: 1.1rem
+    }
+
+    .exhibition-form__section-title {
+        border-bottom: 0.55px solid #5F5F5F;
+    }
+
+    .section-title__text {
+        margin-top: 33px;
+        border-bottom: 0.55px solid #5F5F5F;
+        font-size: 1.65rem;
+    }
+
+    .exhibition-form-group {
+        margin-top: 19.25px;
+    }
+
+    .exhibition-form-group label {
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__checkbox {
+        margin-left: 5.5px;
+    }
+
+    .category-button {
+        margin-top: 19.25px;
+        margin-right: 8.25px;
+        padding: 1.65px 7.15px;
+        border: 1.1px solid #FF5555;
+        border-top-left-radius: 8.25px 8.25px;
+        border-top-right-radius: 8.25px 8.25px;
+        border-bottom-left-radius: 8.25px 8.25px;
+        border-bottom-right-radius: 8.25px 8.25px;
+        font-size: 0.825rem;
+    }
+
+    .exhibition-form__error--category {
+        margin-bottom: 33px;
+    }
+
+    .exhibition-form__triangle::after {
+        border-width: 8.25px 4.4px 0px 4.4px;
+    }
+
+    .exhibition-form__select {
+        padding: 5.5px 8.25px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__input--name input,
+    .exhibition-form__input--brand input {
+        padding: 5.5px 8.25px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__textarea textarea {
+        height: 68.75px;
+        padding: 5.5px 8.25px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__input--price input {
+        padding: 5.5px 16.5px;
+        border: 0.55px solid #5F5F5F;
+        border-radius: 2.75px;
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__input--symbol {
+        top: 14.3px;
+        left: 9.9px;
+        font-size: 1.32rem
+    }
+
+    .exhibition-form__error,
+    .exhibition-form__error--image,
+    .exhibition-form__error--category {
+        margin-top: 2.75px;
+        font-size: 1.1rem
+    }
+
+    .exhibition-form__button--exhibition {
+        margin-top: 66px;
+        margin-bottom: 148.5px;
+        padding: 5.5px 16.5px;
+        border-radius: 2.75px;
+        font-size: 1.375rem;
+    }
+}
