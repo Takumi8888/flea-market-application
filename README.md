@@ -45,6 +45,7 @@
 </ul>
 
 <h2>ER図</h2>
+<img width="100%" alt="ER" src="https://github.com/user-attachments/assets/dd25ac25-a0aa-4094-8f1e-e73ad71a079c" />
 
 
 <h2>連絡事項</h2>
