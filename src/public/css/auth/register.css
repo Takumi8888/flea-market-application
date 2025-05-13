@@ -1,0 +1,124 @@
+/* font-weight */
+.register-form-group label {
+	font-weight: 700;
+}
+
+/* font-size */
+.page__title {
+	font-size: 3.6rem;
+}
+
+.register-form-group label {
+	font-size: 2.4rem;
+}
+
+/* 本体 */
+.container {
+	padding: 100px 0;
+}
+
+.page__title {
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.register-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.register-form-group {
+	margin-bottom: 40px;
+}
+
+.register-form-group label {
+    width: 100%;
+}
+
+.register-form-group input {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.btn--register,
+.btn--login {
+    width: 100%;
+	padding: 15px;
+    border: none;
+}
+
+.btn--register {
+	margin-top: 75px;
+}
+
+.btn--login {
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 本体 */
+	.container {
+		padding: 76px 0;
+	}
+
+	.page__title {
+		margin: 0 auto 38px auto;
+	}
+
+
+	.register-form-group {
+		margin-bottom: 30.4px;
+	}
+
+	.register-form-group input {
+		margin-top: 3.8px;
+	}
+
+	.btn--register,
+	.btn--login {
+		padding: 11.4px;
+	}
+
+	.btn--register {
+		margin-top: 57px;
+	}
+
+	.btn--login {
+		margin-top: 15.2px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	.container {
+		padding: 55px 0;
+	}
+
+	.page__title {
+		margin: 0 auto 27.5px auto;
+	}
+
+
+	.register-form-group {
+		margin-bottom: 22px;
+	}
+
+	.register-form-group input {
+		margin-top: 2.75px;
+	}
+
+	.btn--register,
+	.btn--login {
+		padding: 8.25px;
+	}
+
+	.btn--register {
+		margin-top: 41.25px;
+	}
+
+	.btn--login {
+		margin-top: 11px;
+	}
+}

@@ -1,0 +1,122 @@
+/* font-weight */
+.login-form-group label {
+	font-weight: 700;
+}
+
+/* font-size */
+.page__title {
+	font-size: 3.6rem;
+}
+
+.login-form-group label {
+	font-size: 2.4rem;
+}
+
+/* 本体 */
+.container {
+    padding: 120px 0;
+}
+
+.page__title {
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.login-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.login-form-group {
+    margin-bottom: 40px;
+}
+
+.login-form-group label {
+    width: 100%;
+}
+
+.login-form-group input {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.btn--login,
+.btn--register {
+    width: 100%;
+	padding: 15px;
+    border: none;
+}
+
+.btn--login {
+	margin-top: 40px;
+}
+
+.btn--register {
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 本体 */
+	.container {
+		padding: 91.2px 0;
+	}
+
+	.page__title {
+		margin: 0 auto 38px auto;
+	}
+
+	.login-form-group {
+		margin-bottom: 30.4px;
+	}
+
+	.login-form-group input {
+		margin-top: 3.8px;
+	}
+
+	.btn--login,
+	.btn--register {
+		padding: 11.4px;
+	}
+
+	.btn--login {
+		margin-top: 30.4px;
+	}
+
+	.btn--register {
+		margin-top: 15.2px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	.container {
+		padding: 66px 0;
+	}
+
+	.page__title {
+		margin: 0 auto 27.5px auto;
+	}
+
+	.login-form-group {
+		margin-bottom: 22px;
+	}
+
+	.login-form-group input {
+		margin-top: 2.75px;
+	}
+
+	.btn--login,
+	.btn--register {
+		padding: 8.25px;
+	}
+
+	.btn--login {
+		margin-top: 22px;
+	}
+
+	.btn--register {
+		margin-top: 11px;
+	}
+}

@@ -1,0 +1,723 @@
+/* font-weight */
+.transaction__partner span,
+.message-profile span,
+.message-text,
+.error,
+.new-message__send input,
+.new-message__file button {
+	font-weight: 700;
+}
+
+.btn--item {
+	font-weight: 400;
+}
+
+/* font-size */
+.review-label {
+	font-size: 5.5rem;
+}
+
+.transaction__item-detail h3 {
+	font-size: 4.8rem;
+}
+
+.transaction__partner span,
+.modal__message h2,
+.item__price {
+	font-size: 3.6rem;
+}
+
+.select-item p,
+.item__yen,
+.item__tax,
+.btn--send i {
+	font-size: 3rem;
+}
+
+.btn--item,
+.btn--transaction,
+.message-profile span,
+.new-message__file button,
+.modal__review h3 {
+	font-size: 2rem;
+}
+
+.message-text,
+.error,
+.new-message__send input,
+.btn {
+	font-size: 1.6rem;
+}
+
+/* display: flex; */
+.message__profile--user,
+.message__text--user,
+.message__image--user,
+.message__btn,
+.message__img--user,
+.message-form,
+.message-alert,
+.new-message__btn,
+.modal__review-btn {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.transaction__partner,
+.transaction__item,
+.transaction__item--price,
+.message__profile--partner,
+.message__text--partner,
+.message__img--partner {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.new-message__send {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal__review-star {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* 本体 */
+.container {
+	min-height: 830px;
+}
+
+/* その他の取引 */
+.select-item {
+	width: 17%;
+	background-color: #868686;
+}
+
+.select-item p {
+	margin: 15px 0 25px 0;
+	color: #ffffff;
+	text-align: center;
+}
+
+.btn--item {
+	width: 77%;
+	height: 40px;
+	margin: 25px 11.5%;
+	background-color: #EEEFEB;
+	color: #000000;
+}
+
+/* 取引チャット */
+.transaction-chat {
+	width: 83%;
+}
+
+/* 取引相手 */
+.transaction__partner {
+	margin: 15px 0 15px 40px;
+}
+
+.transaction__partner img {
+	width: 5.2vw;
+	height: 5.2vw;
+	margin-right: 20px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/* 取引完了ボタン */
+.transaction-form {
+	margin: auto 0 auto auto;
+}
+
+.btn--transaction {
+	margin-right: 40px;
+	padding: 15px 20px;
+	border-radius: 9999px;
+}
+
+/* 取引商品 */
+.transaction__item {
+	padding: 10px 40px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.transaction__item img {
+	width: 13vw;
+	height: 13vw;
+	margin-right: 40px;
+	object-fit: cover;
+}
+
+.transaction__item-detail h3 {
+	margin-bottom: 20px;
+}
+
+.item__tax {
+	margin-left: 5px;
+}
+
+/* モーダル画像 */
+.modal__img {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal__message__img--partner {
+	margin: 15% auto;
+	display: block;
+	width: 100%;
+	max-width: 40vw;
+}
+
+/* 取引メッセージ */
+.message__user,
+.message__partner,
+.message__image--user img,
+.message__btn,
+.new-message-form {
+	clear: both;
+}
+
+.message-chat {
+	width: 45%;
+}
+
+.message__chat--user {
+	margin-right: 40px;
+}
+
+.message__chat--partner {
+	margin-left: 40px;
+}
+
+.message__chat--user {
+	margin-left: auto;
+}
+
+.message-profile {
+	margin: 15px 0;
+}
+
+.message-profile span {
+	height: 25px;
+}
+
+.message-profile img {
+	width: 3.9vw;
+	height: 3.9vw;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.message__profile--user span {
+	margin-right: 20px;
+}
+
+.message__profile--partner span {
+	margin-left: 20px;
+}
+
+.message-text {
+	display: inline-block;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #D9D9D9;
+}
+
+.message-img img {
+	width: 15vw;
+	height: 15vw;
+	margin: 10px 0;
+	object-fit: contain;
+}
+
+.message-form {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.message__text--update {
+	padding: 5px 15px;
+	border: 1px solid #D9D9D9;
+}
+
+.btn {
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	color: #5F5F5F;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* 新規メッセージ送信 */
+.new-message-form {
+	position: sticky;
+	top: 100vh;
+	margin-top: 100px;
+	padding: 20px 40px;
+}
+
+.error {
+	margin: 0 0 10px 20px;
+}
+
+.new-message__send input {
+	width: calc(100% - (225px));
+	padding: 10px 20px;
+}
+
+.new-message__file {
+	margin: 0 15px 0 30px;
+}
+
+.new-message__file input {
+	display: none;
+}
+
+.new-message__file button {
+	width: 150px;
+	padding: 5px 20px;
+	border: 3px Solid #FF5555;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	color: #FF5555;
+}
+
+.btn--send {
+	background-color: #FFFFFF;
+}
+
+.btn--send i {
+	width: 30px;
+	height: 30px;
+	color: #5F5F5F;
+}
+
+/* モーダル */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal-sell {
+	display: none;
+	z-index: 1;
+	overflow: auto;
+}
+
+.modal-buy {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.modal-buy:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal-buy a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal__inner {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	background-color: #FDFCE6;
+}
+
+.modal__content {
+	position: relative;
+}
+
+/* components/modal.blade.php */
+.line {
+	border-bottom: 1px solid #000000;
+}
+
+.modal__message h2 {
+	margin: 20px 0 15px 15px;
+}
+
+.modal__review h3 {
+	margin: 15px;
+	color: #868686;
+}
+
+.modal__review-star {
+	margin: 15px;
+}
+
+.review-input {
+	display: none;
+}
+
+.review-label {
+	position: relative;
+	padding-right: 15px;
+	color: #D9D9D9;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.review-label:hover,
+.review-label:hover~.review-label,
+.review-input:checked~.review-label {
+	color: #FFF048;
+}
+
+.btn--review {
+	width: 27%;
+	margin: 15px 15px 20px 0;
+	padding: 10px 15px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 本体 */
+	.container {
+		min-height: 630.8px;
+	}
+
+	/* その他の取引 */
+	.select-item p {
+		margin: 11.4px 0 19px 0;
+	}
+
+	.btn--item {
+		height: 30.4px;
+		margin: 19px 11.5%;
+	}
+
+	/* 取引相手 */
+	.transaction__partner {
+		margin: 11.4px 0 11.4px 30.4px;
+	}
+
+	.transaction__partner img {
+		margin-right: 15.2px;
+	}
+
+	/* 取引完了ボタン */
+	.btn--transaction {
+		margin-right: 30.4px;
+		padding: 11.4px 15.2px;
+	}
+
+	/* 取引商品 */
+	.transaction__item {
+		padding: 7.6px 30.4px;
+		border-top: 0.76px solid #000000;
+		border-bottom: 0.76px solid #000000;
+	}
+
+	.transaction__item img {
+		margin-right: 30.4px;
+	}
+
+	.transaction__item-detail h3 {
+		margin-bottom: 15.2px;
+	}
+
+	.item__tax {
+		margin-left: 3.8px;
+	}
+
+	/* 取引メッセージ */
+	.message__chat--user {
+		margin-right: 30.4px;
+	}
+
+	.message__chat--partner {
+		margin-left: 30.4px;
+	}
+
+	.message-profile {
+		margin: 11.4px 0;
+	}
+
+	.message-profile span {
+		height: 19px;
+	}
+
+	.message__profile--user span {
+		margin-right: 15.2px;
+	}
+
+	.message__profile--partner span {
+		margin-left: 15.2px;
+	}
+
+	.message-text {
+		padding: 15.2px;
+		border-radius: 3.8px;
+	}
+
+	.message-img img {
+		margin: 7.6px 0;
+	}
+
+	.message-form {
+		margin-top: 3.8px;
+	}
+
+	.message__text--update {
+		padding: 3.8px 11.4px;
+		border: 0.76px solid #D9D9D9;
+	}
+
+	.btn {
+		margin-left: 15.2px;
+		text-shadow: 0.76px 1.52px 2.28px rgba(0, 0, 0, 0.25);
+	}
+
+	/* 新規メッセージ送信 */
+	.new-message-form {
+		margin-top: 76px;
+		padding: 15.2px 30.4px;
+	}
+
+	.error {
+		margin: 0 0 7.6px 15.2px;
+	}
+
+	.new-message__send input {
+		width: calc(100% - (171px));
+		padding: 7.6px 15.2px;
+	}
+
+	.new-message__file {
+		margin: 0 11.4px 0 22.8px;
+	}
+
+	.new-message__file button {
+		width: 114px;
+		padding: 3.8px 15.2px;
+		border: 2.28px Solid #FF5555;
+		border-radius: 7.6px;
+	}
+
+	.btn--send i {
+		width: 22.8px;
+		height: 22.8px;
+	}
+
+	/* モーダル */
+	.modal__inner {
+		border: 0.76px solid #000000;
+		border-radius: 11.4px;
+	}
+
+	/* components/modal.blade.php */
+	.line {
+		border-bottom: 0.76px solid #000000;
+	}
+
+	.modal__message h2 {
+		margin: 15.2px 0 11.4px 11.4px;
+	}
+
+	.modal__review h3,
+	.modal__review-star {
+		margin: 11.4px;
+	}
+
+	.review-label {
+		padding-right: 11.4px;
+	}
+
+	.btn--review {
+		margin: 11.4px 11.4px 15.2px 0;
+		padding: 7.6px 11.4px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	.container {
+		min-height: 456.5px;
+	}
+
+	/* その他の取引 */
+	.select-item p {
+		margin: 8.25px 0 13.75px 0;
+	}
+
+	.btn--item {
+		height: 22px;
+		margin: 13.75px 11.5%;
+	}
+
+	/* 取引相手 */
+	.transaction__partner {
+		margin: 8.25px 0 8.25px 22px;
+	}
+
+	.transaction__partner img {
+		margin-right: 11px;
+	}
+
+	/* 取引完了ボタン */
+	.btn--transaction {
+		margin-right: 22px;
+		padding: 8.25px 11px;
+	}
+
+	/* 取引商品 */
+	.transaction__item {
+		padding: 5.5px 22px;
+		border-top: 0.55px solid #000000;
+		border-bottom: 0.55px solid #000000;
+	}
+
+	.transaction__item img {
+		margin-right: 22px;
+	}
+
+	.transaction__item-detail h3 {
+		margin-bottom: 11px;
+	}
+
+	.item__tax {
+		margin-left: 2.75px;
+	}
+
+	/* 取引メッセージ */
+	.message__chat--user {
+		margin-right: 22px;
+	}
+
+	.message__chat--partner {
+		margin-left: 22px;
+	}
+
+	.message-profile {
+		margin: 8.25px 0;
+	}
+
+	.message-profile span {
+		height: 13.75px;
+	}
+
+	.message__profile--user span {
+		margin-right: 11px;
+	}
+
+	.message__profile--partner span {
+		margin-left: 11px;
+	}
+
+	.message-text {
+		padding: 11px;
+		border-radius: 2.75px;
+	}
+
+	.message-img img {
+		margin: 5.5px 0;
+	}
+
+	.message-form {
+		margin-top: 2.75px;
+	}
+
+	.message__text--update {
+		padding: 2.75px 8.25px;
+		border: 0.55px solid #D9D9D9;
+	}
+
+	.btn {
+		margin-left: 11px;
+		text-shadow: 0.55px 1.1px 1.65px rgba(0, 0, 0, 0.25);
+	}
+
+	/* 新規メッセージ送信 */
+	.new-message-form {
+		margin-top: 55px;
+		padding: 11px 22px;
+	}
+
+	.error {
+		margin: 0 0 5.5px 11px;
+	}
+
+	.new-message__send input {
+		width: calc(100% - (123.75px));
+		padding: 5.5px 11px;
+	}
+
+	.new-message__file {
+		margin: 0 8.25px 0 16.5px;
+	}
+
+	.new-message__file button {
+		width: 82.5px;
+		padding: 2.75px 11px;
+		border: 1.65px Solid #FF5555;
+		border-radius: 5.5px;
+	}
+
+	.btn--send i {
+		width: 16.5px;
+		height: 16.5px;
+	}
+
+	/* モーダル */
+	.modal__inner {
+		border: 0.55px solid #000000;
+		border-radius: 8.25px;
+	}
+
+	/* components/modal.blade.php */
+	.line {
+		border-bottom: 0.55px solid #000000;
+	}
+
+	.modal__message h2 {
+		margin: 11px 0 8.25px 8.25px;
+	}
+
+	.modal__review h3,
+	.modal__review-star {
+		margin: 8.25px;
+	}
+
+	.review-label {
+		padding-right: 8.25px;
+	}
+
+	.btn--review {
+		margin: 8.25px 8.25px 11px 0;
+		padding: 5.5px 8.25px;
+	}
+}

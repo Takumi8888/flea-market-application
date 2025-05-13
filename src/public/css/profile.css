@@ -1,0 +1,169 @@
+/* font-weight */
+.btn--img,
+.group label {
+	font-weight: 700;
+}
+
+/* font-size */
+.page__title {
+	font-size: 3.6rem;
+}
+
+.group label {
+	font-size: 2.4rem;
+}
+
+.message,
+.btn--img {
+	font-size: 2rem;
+}
+
+/* display: flex; */
+.profile__img {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+/* 更新メッセージ */
+.message {
+	padding: 15px;
+	text-align: center;
+}
+
+.alert--success {
+	border-color: #badbcc;
+	background-color: #d1e7dd;
+	color: #0f5132;
+}
+
+.alert--danger {
+	border-color: #f5c2c7;
+	background-color: #f8d7da;
+	color: #842029;
+}
+
+/* 本体 */
+.page__title {
+    margin: 60px auto 50px auto;
+    text-align: center;
+}
+
+.profile-form {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.group {
+	margin-bottom: 40px;
+}
+
+/* 画像 */
+.profile__img img {
+	width: 9.7vw;
+	height: 9.7vw;
+    border-radius: 50%;
+	object-fit: cover;
+}
+
+.profile__img input {
+    display: none;
+}
+
+.profile__img-btn {
+	margin-left: 40px;
+}
+
+.btn--img {
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	border: 3px Solid #FF5555;
+	border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #FF5555;
+}
+
+/* テキスト */
+.group input {
+    width: 100%;
+	margin-top: 5px;
+}
+
+.btn--edit {
+    width: 100%;
+	margin: 25px 0 130px 0;
+	padding: 15px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 更新メッセージ */
+	.message {
+		padding: 11.4px;
+	}
+
+	/* 本体 */
+	.page__title {
+		margin: 45.6px auto 38px auto;
+	}
+
+	.group {
+		margin-bottom: 30.4px;
+	}
+
+	/* 画像 */
+	.profile__img-btn {
+		margin-left: 30.4px;
+	}
+
+	.btn--img {
+		margin-bottom: 7.6px;
+		padding: 7.6px 22.8px;
+		border: 2.28px Solid #FF5555;
+		border-radius: 7.6px;
+	}
+
+	/* テキスト */
+	.group input {
+		margin-top: 3.8px;
+	}
+
+	.btn--edit {
+		margin: 19px 0 98.8px 0;
+		padding: 11.4px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	.page__title {
+		margin: 33px auto 27.5px auto;
+	}
+
+	.group {
+		margin-bottom: 22px;
+	}
+
+	/* 画像 */
+	.profile__img-btn {
+		margin-left: 22px;
+	}
+
+	.btn--img {
+		margin-bottom: 5.5px;
+		padding: 5.5px 16.5px;
+		border: 1.65px Solid #FF5555;
+		border-radius: 5.5px;
+	}
+
+	/* テキスト */
+	.group input {
+		margin-top: 2.75px;
+	}
+
+	.btn--edit {
+		margin: 13.75px 0 71.5px 0;
+		padding: 8.25px;
+	}
+}

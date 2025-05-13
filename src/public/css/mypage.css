@@ -1,0 +1,393 @@
+/* font-weight */
+.profile__name,
+.btn--profile,
+.sell-btn,
+.buy-btn,
+.transaction-btn {
+	font-weight: 700;
+}
+
+.btn--item,
+.sold::after,
+.transaction::after {
+	font-weight: 400;
+}
+
+/* font-size */
+.review-label {
+	font-size: 4rem;
+}
+
+.profile__name {
+	font-size: 3.6rem;
+}
+
+.btn--profile {
+	font-size: 2.6rem;
+}
+
+.sell-btn,
+.buy-btn,
+.transaction-btn,
+.item-form__name {
+	font-size: 2.4rem;
+}
+
+.transaction::after {
+	font-size: 2rem;
+}
+
+.message {
+	font-size: 1.6rem;
+}
+
+/* display: flex; */
+.profile-section,
+.tag-section,
+.transaction-form,
+.item-form__name {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.profile__review {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* ユーザー情報 */
+.profile-section {
+    width: 100%;
+	margin: 80px auto;
+}
+
+.profile__img {
+	width: 9.7vw;
+	height: 9.7vw;
+    margin-left: 20%;
+    border-radius: 50%;
+	object-fit: cover;
+}
+
+.profile-group {
+    width: 34.5%;
+    margin-left: 6%;
+}
+
+.profile__review {
+	margin-top: 15px;
+}
+
+.review-input,
+.review-label {
+	pointer-events: none;
+}
+
+.review-input {
+	display: none;
+}
+
+.review-label {
+	position: relative;
+	padding-right: 10px;
+	color: #D9D9D9;
+}
+
+.review-label:checked,
+.review-label:checked~.review-label,
+.review-input:checked~.review-label {
+	color: #FFF048;
+}
+
+.btn--profile {
+	padding: 10px 30px;
+	border: 3px solid #FF5555;
+	border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #FF5555;
+}
+
+/* タグ */
+.tag-section {
+	border-bottom: 2px solid #5F5F5F;
+}
+
+.tag {
+    width: 23.5%;
+}
+
+.sell-btn,
+.buy-btn,
+.transaction-btn {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.sell-btn {
+    margin-left: 40%;
+}
+
+.buy-btn {
+	margin-left: 20%;
+}
+
+.btn--on {
+    color: #FF5555;
+}
+
+.btn--off {
+    color: #5F5F5F;
+}
+
+/* 新着通知 */
+.message {
+	display: block;
+	height: 23px;
+	margin-top: 3px;
+	box-sizing: border-box;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	line-height: 23px;
+	text-align: center;
+}
+
+.message-count {
+	width: 23px;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+
+.message--alert,
+.message--new {
+	position: absolute;
+	top: 13px;
+	transform: translate(-50%, -50%);
+}
+
+.message--alert {
+	left: 16px;
+	width: 23px;
+	border-radius: 50%;
+}
+
+.message--new {
+	left: 30px;
+	width: 50px;
+	border-radius: 9999px;
+}
+
+/* 商品 */
+.item-section {
+    width: 90%;
+    margin: 60px auto 0 auto;
+}
+
+.item-section ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4.6%;
+}
+
+.item-section ul .hidden {
+    display: none
+}
+
+.item-section li {
+    display: block;
+	margin-bottom: 75px;
+}
+
+.btn--item {
+	position: relative;
+    background-color: #FFFFFF;
+	color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btn--item img {
+	width: 19.4vw;
+	height: 19.4vw;
+	object-fit: cover;
+}
+
+.item-form__name {
+    align-items: flex-end;
+    height: 38px;
+}
+
+/* 取引完了 */
+.sold,
+.transaction {
+	position: relative;
+}
+
+.sold::before,
+.transaction::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	border-bottom: 4em solid transparent;
+	border-left: 4em solid #FF5555;
+	content: "";
+}
+
+.sold::after,
+.transaction::after {
+	display: block;
+	position: absolute;
+	z-index: 99;
+	transform: rotate(-45deg);
+	color: #FFFFFF;
+}
+
+.sold::after {
+	top: 0.8em;
+	left: 0.3em;
+	content: "Sold";
+}
+
+.transaction::after {
+	top: 0.9em;
+	left: 0.2em;
+	content: "取引中";
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* ユーザー情報 */
+	.profile-section {
+		margin: 60.8px auto;
+	}
+
+	.profile__review {
+		margin-top: 11.4px;
+	}
+
+	.review-label {
+		padding-right: 7.6px;
+	}
+
+	.btn--profile {
+		padding: 7.6px 22.8px;
+		border: 2.28px solid #FF5555;
+		border-radius: 3.8px;
+	}
+
+	/* タグ */
+	.tag-section {
+		border-bottom: 1.52px solid #5F5F5F;
+	}
+
+	/* 新着通知 */
+	.message {
+		height: 17.48px;
+		margin-top: 2.28px;
+		line-height: 17.48px;
+	}
+
+	.message-count {
+		width: 17.48px;
+		margin-left: 3.8px;
+	}
+
+	.message--alert,
+	.message--new {
+		top: 9.88px;
+	}
+
+	.message--alert {
+		left: 12.16px;
+		width: 17.48px;
+	}
+
+	.message--new {
+		left: 22.8px;
+		width: 38px;
+	}
+
+	/* 商品 */
+	.item-section {
+		margin: 45.6px auto 0 auto;
+	}
+
+	.item-section li {
+		margin-bottom: 57px;
+	}
+
+	.item-form__name {
+		height: 28.88px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* ユーザー情報 */
+	.profile-section {
+		margin: 44px auto;
+	}
+
+	.profile__review {
+		margin-top: 8.25px;
+	}
+
+	.review-label {
+		padding-right: 5.5px;
+	}
+
+	.btn--profile {
+		padding: 5.5px 16.5px;
+		border: 1.65px solid #FF5555;
+		border-radius: 2.75px;
+	}
+
+	/* タグ */
+	.tag-section {
+		border-bottom: 1.1px solid #5F5F5F;
+	}
+
+	/* 新着通知 */
+	.message {
+		height: 12.65px;
+		margin-top: 1.65px;
+		line-height: 12.65px;
+	}
+
+	.message-count {
+		width: 12.65px;
+		margin-left: 2.75px;
+	}
+
+	.message--alert,
+	.message--new {
+		top: 7.15px;
+	}
+
+	.message--alert {
+		left: 8.8px;
+		width: 12.65px;
+	}
+
+	.message--new {
+		left: 16.5px;
+		width: 27.5px;
+	}
+
+	/* 商品 */
+	.item-section {
+		margin: 33px auto 0 auto;
+	}
+
+	.item-section li {
+		margin-bottom: 41.25px;
+	}
+
+	.item-form__name {
+		height: 20.9px;
+	}
+}

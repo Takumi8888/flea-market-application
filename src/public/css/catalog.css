@@ -1,0 +1,190 @@
+/* font-weight */
+.tag-link {
+	font-weight: 700;
+}
+
+.btn--item span,
+.sold::after,
+.transaction::after {
+	font-weight: 400;
+}
+
+/* font-size */
+.tag-link,
+.tag-btn,
+.btn--item span {
+	font-size: 2.4rem;
+}
+
+.transaction::after {
+	font-size: 2rem;
+}
+
+/* display: flex; */
+.tag-section,
+.tag-link,
+.btn--item span {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+/* 本体 */
+.container {
+	margin: 50px auto;
+}
+
+/* タグ */
+.tag-section {
+	border-bottom: 2px solid #5F5F5F;
+}
+
+.tag {
+    width: 25%;
+}
+
+.tag-link {
+	height: 100%;
+    margin-left: 50%;
+}
+
+.tag-btn {
+    background-color: #FFFFFF;
+}
+
+.btn--on {
+    color: #FF5555;
+}
+
+.btn--off {
+    color: #5F5F5F;
+}
+
+/* 商品 */
+.item-section {
+    width: 90%;
+    margin: 60px auto 0 auto;
+}
+
+.item-section ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4.6%;
+}
+
+.item-section ul .hidden {
+    display: none
+}
+
+.item-section li {
+	margin-bottom: 75px;
+}
+
+.btn--item {
+    background-color: #FFFFFF;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btn--item img {
+	width: 19.4vw;
+	height: 19.4vw;
+	object-fit: cover;
+}
+
+.btn--item span {
+	align-items: flex-end;
+	height: 38px;
+	color: #000000;
+}
+
+/* 取引完了 */
+.sold,
+.transaction {
+	position: relative;
+}
+
+.sold::before,
+.transaction::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	border-bottom: 4em solid transparent;
+	border-left: 4em solid #FF5555;
+	content: "";
+}
+
+.sold::after,
+.transaction::after {
+	display: block;
+	position: absolute;
+	z-index: 99;
+	transform: rotate(-45deg);
+	color: #FFFFFF;
+}
+
+.sold::after {
+	top: 0.8em;
+	left: 0.3em;
+	content: "Sold";
+}
+
+.transaction::after {
+	top: 0.9em;
+	left: 0.2em;
+	content: "取引中";
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 本体 */
+	.container {
+		margin: 38px auto;
+	}
+
+	/* タグ */
+	.tag-section {
+		border-bottom: 1.52px solid #5F5F5F;
+	}
+
+	/* 商品 */
+	.item-section {
+		margin: 45.6px auto 0 auto;
+	}
+
+	.item-section li {
+		margin-bottom: 57px;
+	}
+
+	.btn--item span {
+		height: 28.88px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	.container {
+		margin: 27.5px auto;
+	}
+
+	/* タグ */
+	.tag-section {
+		border-bottom: 1.1px solid #5F5F5F;
+	}
+
+	/* 商品 */
+	.item-section {
+		margin: 33px auto 0 auto;
+	}
+
+	.item-section li {
+		margin-bottom: 41.25px;
+	}
+
+	.btn--item span {
+		height: 20.9px;
+	}
+}

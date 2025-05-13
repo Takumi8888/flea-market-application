@@ -1,0 +1,154 @@
+/* font-weight */
+.title {
+	font-weight: 700;
+}
+
+body,
+.exhibition-item__header,
+.review__header {
+	font-weight: 500;
+}
+
+/* font-size */
+.title {
+	font-size: 1.5rem;
+}
+
+.exhibition-item,
+.review,
+.review-label,
+.text {
+	font-size: 1.3rem;
+}
+
+.exhibition-item__header,
+.review__header,
+.exhibition-item__data,
+.review__data {
+	font-size: 1rem;
+}
+
+/* display: flex; */
+.review {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* 本体 */
+body {
+	font-size: 10px;
+}
+
+table {
+	margin: 0 0 30px 15px;
+}
+
+tr {
+	border-bottom: 1px solid #000000;
+}
+
+.exhibition-item__header,
+.review__header {
+	padding-top: 15px;
+	text-align: left;
+}
+
+.exhibition-item__data,
+.review__data {
+	padding: 15px 20px 0 20px;
+}
+
+.review-input {
+	display: none;
+}
+
+.review-input,
+.review-label {
+	pointer-events: none;
+}
+
+.review-label {
+	position: relative;
+	padding-right: 10px;
+	color: #5F5F5F;
+}
+
+.review-label:checked,
+.review-label:checked~.review-label,
+.review-input:checked~.review-label {
+	color: #FFF048;
+}
+
+.text {
+	margin-left: 15px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+	/* 76% */
+	/* 本体 */
+	body {
+		font-size: 7.6px;
+	}
+
+	table {
+		margin: 0 0 22.8px 11.4px;
+	}
+
+	tr {
+		border-bottom: 0.76px solid #000000;
+	}
+
+	.exhibition-item__header,
+	.review__header {
+		padding-top: 11.4px;
+	}
+
+	.exhibition-item__data,
+	.review__data {
+		padding: 11.4px 15.2px 0 15.2px;
+	}
+
+	.review-label {
+		padding-right: 7.6px;
+	}
+
+	.text {
+		margin-left: 11.4px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	/* 55% */
+	/* 本体 */
+	body {
+		font-size: 5.5px;
+	}
+
+	table {
+		margin: 0 0 16.5px 8.25px;
+	}
+
+	tr {
+		border-bottom: 0.55px solid #000000;
+	}
+
+	.exhibition-item__header,
+	.review__header {
+		padding-top: 8.25px;
+	}
+
+	.exhibition-item__data,
+	.review__data {
+		padding: 8.25px 11px 0 11px;
+	}
+
+	.review-label {
+		padding-right: 5.5px;
+	}
+
+	.text {
+		margin-left: 8.25px;
+	}
+}
